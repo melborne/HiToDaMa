@@ -7,7 +7,7 @@ configure do
 end
 
 configure :production do
-  PusherConfig.set({app: APP_TITLE}.merge CONF[:PusherDevConfig])
+  PusherConfig.set({app: APP_TITLE}.merge CONF[:PusherProConfig])
 end
 
 configure :development do
