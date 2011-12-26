@@ -1,19 +1,9 @@
-:TwitterOAuthConfig:
-  :consumer_key: 'YOUR_CONSUMER_KEY'
-  :consumer_secret: 'YOUR_CONSUMER_SECRET'
-  :access_token: 'YOUR_ACCESS_TOKEN'
-  :access_token_secret: 'YOUR_ACCESS_TOKEN_SECRET'
-
-:TwitterBasicConfig:
-  :username: 'merborne'
-  :password: 'monterey32'
-
 :PusherProConfig:
-  :id: 'YOUR_ID'
-  :key: 'YOUR_KEY'
-  :secret: 'YOUR_SECRET'
+  :id: '12566'
+  :key: '62d24e2fd73cded75999'
+  :secret: 'dfb9962adb41b19510e8'
 
 :PusherDevConfig:
-  :id: '9153'
-  :key: '2f0ffc99146ee6dc8d97'
-  :secret: 'ad7ad60adabc0196c43a'
+  :id: '12567'
+  :key: '4db14887d5c46d1b96dd'
+  :secret: 'b53afee3eb7f8b084331'
