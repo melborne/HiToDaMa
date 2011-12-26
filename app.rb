@@ -1,7 +1,7 @@
 require_relative "lib/pusher_config"
 
 configure do
-  CONF = YAML.load_file('myprofile')
+  CONF = YAML.load_file('profile')
   APP_TITLE = "HiToDaMa"
   BLOG = {title: "hp12c", url: "http://d.hatena.ne.jp/keyesberry"}
 end
