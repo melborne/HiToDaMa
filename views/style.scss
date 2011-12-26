@@ -1,0 +1,49 @@
+$font_color: #cccc22;
+$bg_color: #223344;
+$canvas_color: #FFFFFF;
+
+@mixin rounded($topl:8px, $topr:8px, $btmr:8px, $btml:8px) {
+  border-radius: $topl $topr $btmr $btml;
+  -moz-border-radius: $topl $topr $btmr $btml;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Trebuchet ms, Verdana, Myriad Web, Syntax, sans-serif
+}
+
+body {
+  color: $font_color;
+  background-color: $bg_color;
+  width: 80%;
+  margin: 20px auto;
+}
+
+header {
+  display:block;
+}
+
+#main {
+  canvas {
+    width: 100%;
+    height: 80%;
+    border: thin solid #444;
+    background-color: $canvas_color;
+    @include rounded();
+  }
+}
+
+footer {
+  display: block;
+  height: 30px;
+  text-align: center;
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+    color: $font_color;
+    &:visited {
+      color: $font_color;
+    }
+  }
+}
